@@ -1,0 +1,21 @@
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+input[type="file"] {
+    display: none !important;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(122, 128, 212, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
